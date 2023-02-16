@@ -1,12 +1,15 @@
 import React from "react";
-import Project from "../components/Project";
+import ProjectItem from "../components/ProjectItem";
 
+import {ProjectList} from "../data/projectList"
 function Projects() {
   return (
     <div className="projects">
       <h1>My Projects</h1>
       <div className="projectList">
-        <Project name="project1" />
+        {ProjectList.map((project)=>{
+          return <ProjectItem name={project.name} image={project.image} skills={project.skills} code={project.code}/>
+        })}
       </div>
     </div>
   );

@@ -1,15 +1,16 @@
 import Proj1 from "../assets/Stavanger.jpg";
-import Proj2 from "../assets/SolarSystem.jpg";
-import Proj3 from "../assets/proj3.jpg";
-import Proj4 from "../assets/proj4.jpg";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.jpg";
+import Proj2 from "../assets/SolarSystem.jpeg";
+import Proj3 from "../assets/proj3.jpeg";
+import Proj4 from "../assets/proj4.jpeg";
+import Proj5 from "../assets/proj5.jpeg";
+import Proj6 from "../assets/proj6.jpeg";
 
 export const ProjectList = [
   {
     name: "Stavanger",
     image: Proj1,
     skills: "HTML,CSS",
+    code:"https://www.pluralsight.com/guides/inline-styling-with-react"
   },
   {
     name: "Solar System",
