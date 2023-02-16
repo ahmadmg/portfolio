@@ -8,7 +8,7 @@ function Projects() {
       <h1>My Projects</h1>
       <div className="projectList">
         {ProjectList.map((project)=>{
-          return <ProjectItem name={project.name} image={project.image} skills={project.skills} code={project.code}/>
+          return <ProjectItem name={project.name} image={project.image} skills={project.skills} code={project.code} preview={project.preview}/>
         })}
       </div>
     </div>

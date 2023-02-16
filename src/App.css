@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 .App {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Patrick Hand', cursive;
   background-color: #f0f0f0;
 }
 
