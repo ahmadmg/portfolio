@@ -6,19 +6,14 @@ import "../styles/Home.css";
 function Home() {
   return (
     <div className="home">
-      <div>
-        <h2>Hi,My Name is Ahmad</h2>
+      <div className="about">
+        <h2>Welcome to my Portfolio</h2>
         <div className="prompt">
           <p>
-            Others call me Ahmad .<br /> I'm passionate about coding and on my
-            to update myself by participating in Kodehode. <br /> I used to work
+            Others call me Ahmad . I'm passionate about coding and a hardeworker.  I used to work
             within customer support and looking forward to starting to make the
             product selv.
-            <br /> Otherwise You can see me as a father, chess player, loser
-            photographer and a customer support for the family and friends.
           </p>
-          <LinkedInIcon />
-          <GitHubIcon />
         </div>
       </div>
       <div className="skills">
