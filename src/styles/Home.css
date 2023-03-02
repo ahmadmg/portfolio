@@ -22,11 +22,13 @@
   font-size: 80px;
   color: #22333B;
   height: 50px;
+  margin: auto;
 }
 
 .about .prompt {
-  width: 40%;
+  width: 70%;
   font-size: 30px;
+  
 }
 .prompt svg {
   font-size: 60px;
