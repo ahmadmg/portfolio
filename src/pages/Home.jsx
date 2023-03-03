@@ -1,20 +1,32 @@
 import React from "react";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import "../styles/Home.css";
+import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Welcome to my Portfolio</h2>
-        <div className="prompt">
-          <p>
-            Others call me Ahmad . I'm passionate about coding and a hardeworker.  I used to work
+      <h2> <Typewriter
+  
+       onInit={(typewriter)=> {
+  
+       typewriter
+        
+       .typeString("Welcome to my Portfolio")
+         
+       .pauseFor(1000)
+       .deleteAll()
+       .typeString("I'm Ahmad")
+       .start();
+       }}
+       /></h2>
+        {/* <h2>Welcome to my Portfolio</h2> */}
+          <p className="prompt">
+            I'm passionate about coding and a hard worker.  I used to work
             within customer support and looking forward to starting to make the
             product selv.
           </p>
-        </div>
+        
       </div>
       <div className="skills">
         <h1>Skills </h1>

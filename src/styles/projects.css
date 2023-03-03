@@ -5,10 +5,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: #5E503F;
 }
 .projects .projectTitle {
   text-align: center;
-  color: #22333B;
+  color: #5E503F;
   font-size: 60px;
   font-weight: bolder;
 }
@@ -31,6 +32,7 @@
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
   
+  
 }
 .projectItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
@@ -48,21 +50,25 @@
   background-size: cover;
 }
 
-.projectItem h1 {
+.projectItem h1{
   font-size: 25px;
+  
 }
-
+.projectItem a:active{
+  color: #5E503F;
+}
 
 
 @media only screen and (max-width: 1300px) {
   .projectList {
+    width: 90vw;
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .projectList {
-    width: 100%;
+    width:90vw;;
     grid-template-columns: 1fr;
   }
   .projectItem {

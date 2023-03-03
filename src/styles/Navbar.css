@@ -10,10 +10,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #F2F4F3;
+  color: goldenrod;
 }
 .navbar a {
-  color: #F2F4F3;
+  color: goldenrod;
   text-decoration: none;
   margin: 20px;
   font-size: 25px;

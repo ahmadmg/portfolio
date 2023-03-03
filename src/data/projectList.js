@@ -10,8 +10,8 @@ export const ProjectList = [
     name: "Stavanger",
     image: Proj1,
     skills: "HTML,CSS",
-    code:"https://www.pluralsight.com/guides/inline-styling-with-react",
-    preview:"https://www.pluralsight.com/guides/inline-styling-with-react",
+    code:"https://",
+    preview:"https://www.",
   },
   {
     name: "Solar System",
