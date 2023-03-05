@@ -1,11 +1,12 @@
 .home {
   width: 100%;
   align-items: center;
-  font-family: "Arial", sans-serif;
+  font-family: 'Patrick Hand', cursive;
   color: #3e497a;
 }
 
 .about {
+ 
   width: 100%;
   height: calc(100vh - 100px);
   display: flex;
@@ -13,12 +14,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #5E503F;
-  color: #f0f0f0;
+  background-color: #D9D9D9;
+  color: #284B63;
 }
 
 .about h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Patrick Hand', cursive;
   font-size: 80px;
   color: #22333B;
   height: 50px;
