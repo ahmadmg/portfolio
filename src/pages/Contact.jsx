@@ -5,7 +5,7 @@ import "../styles/Contact.css"
 function Contact() {
   return (
     <div className="contact">
-    <div className="form">
+    
       <div className="my-text">
         <h1>
       <Typewriter
@@ -24,30 +24,19 @@ function Contact() {
   /></h1>
   <p>I am intertsted in a work opputiont or intershep</p>
       </div>
-      <div>
+     
       <form> 
-        <ul>
+
       
-      <li> <input type="text" name="name"  placeholder="Name" required/></li>
-      <li><input type="email" name="email"  placeholder="Email" required/></li>
-      <li><input type="text" name="subject"  placeholder="Subject" required/></li>
-      <li><textarea placeholder="Message" name="message" required></textarea></li>
-      <li><input type="submit" value="SEND" className="send-btn" /></li>
-</ul> </form>
-</div>
-</div>
+       <input type="text" name="name"  placeholder="Name" required/>
+      <input type="email" name="email"  placeholder="Email" required/>
+      <input type="text" name="subject"  placeholder="Subject" required/>
+      <textarea placeholder="Message" name="message" required></textarea>
+      <input type="submit" value="SEND" className="send-btn" />
+ </form>
 
 
-
-    <div>  <iframe
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=4350%20Kleppe+(Ahmad%20Alhaji%20Mustafa)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-             
-              style={{ border: 0 }}
-              allowFullScreen=""
-              aria-hidden="false"
-              tabIndex="0"
-            />
-     </div> 
+ 
 </div>
   );
 }

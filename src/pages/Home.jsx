@@ -35,8 +35,22 @@ function Home() {
         <h1>Skills </h1>
         <ol className="list">
           <li className="item">
-            <h2>Front-End</h2>
+            <h2>I Use this languages to Write my Code:</h2>
             <span>Html, Css , JavaScript , React</span>
+          </li>
+          <li className="item">
+            <h2>When I want to make it public:</h2>
+            <span>Github, Netlify</span>
+          </li>
+          <li className="item">
+            <h2>IDE, terminals:</h2>
+            <span>VS code, Git, PowerShell
+            When I design and prototype:
+            </span>
+          </li>
+          <li className="item">
+            <h2> When I design and prototype:</h2>
+            <span>Figma, Miro </span>
           </li>
         </ol>
       </div>
