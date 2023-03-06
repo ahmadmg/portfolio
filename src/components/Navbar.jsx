@@ -10,12 +10,12 @@ function Navbar() {
   }, [location]);
   return (
     <header className="navbar" id={expandNavbar ? "open" : "close"}>
-      <div className="toggleButton">
+      <div className="toggleButton" >
         <button
           onClick={() => {
             setExpandNavbar((prev) => !prev);
           }}
-        >
+         name="Menu">
           <ReorderIcon />
         </button>
       </div>
