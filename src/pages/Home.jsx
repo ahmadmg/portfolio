@@ -6,22 +6,23 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-      <h2>
-        //Animation
+      {/* Animation */}
+      <h2>  
          <Typewriter
   
        onInit={(typewriter)=> {
 
        typewriter
-        
+ 
        .typeString("Welcome to my Portfolio")
-         
+        
        .pauseFor(1000)
        .deleteAll()
        .typeString("I'm Ahmad")
        .start();
        }}
-       /></h2>
+       />
+       </h2>
         {/* <h2>Welcome to my Portfolio</h2> */}
           <p className="prompt">
             I'm passionate about coding and a hard worker.  I used to work

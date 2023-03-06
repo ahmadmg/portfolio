@@ -1,10 +1,58 @@
 .contact{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+    width: 100%;
+    margin-top: 20px;
 
 }
 .form{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
+}
+
+.form ul, ul li{
+  padding: 0;
+  margin: 0; 
 
 }
+
+ul li{
+   list-style: none;
+   margin-bottom: 10px;
+   overflow: hidden;
+   
+   animation:alternate 2s 2s;
+   animation-fill-mode: forwards;
+   width: 100%;
+   border: 0;
+   font-size: 16px;
+   box-sizing: border-box;
+}
+textarea {
+
+    padding: 20px;
+    min-height: 150px;
+  }
+.send-btn{
+    
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #fff;
+    float: left;
+    border-radius: 4px;
+    background: 0 0;
+   
+    
+    text-align: center;
+    margin-right: 10px;
+  }   
+
+
+@media screen and (max-width: 460px) {
+   .contact{
+
+   grid-template-columns: 1fr ; }
+  }
