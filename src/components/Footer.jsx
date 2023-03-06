@@ -1,13 +1,13 @@
 import "../styles/Footer.css";
 import React from "react";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import { SiLinkedin, SiGithub } from "react-icons/si";
+
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="socialMedia">
-        <a href="https://www.linkedin.com/in/ahmadmg/"><LinkedInIcon /></a>
-        <a href="https://github.com/ahmadmg"><GitHubIcon /></a>
+        <a href="https://www.linkedin.com/in/ahmadmg/"><SiLinkedin style={{color:"#0077b5"}}/></a>
+        <a href="https://github.com/ahmadmg"><SiGithub title="GITHUB" style={{color:"#0077b5"}}/> </a>
       </div>
       <p>&copy; Copyright 2023, ahmadam.me</p>
     </footer>

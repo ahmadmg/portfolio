@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .home {
   width: 100%;
   align-items: center;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Roboto', sans-serif;
   color: #3e497a;
 }
 
 .about {
- 
   width: 100%;
   height: calc(100vh - 100px);
   display: flex;
@@ -19,11 +19,10 @@
 }
 
 .about h2 {
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 80px;
-  color: #22333B;
+  color: #284B63;
   height: 50px;
-  margin: auto;
   box-sizing: border-box;
 }
 
@@ -50,9 +49,11 @@
 }
 
 .skills h1 {
-  color: #3e497a;
+  color: #284B63;
 }
-
+.skills h2{
+  font-size: 1.5rem;
+}
 .skills .list {
   list-style: none;
   width: 60%;
@@ -61,7 +62,22 @@
 .list span {
   font-size: 20px;
 }
-
+.icons{
+  font-size: 4.5rem;
+}
+.icons:hover{
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 8px #d3d3d38a) drop-shadow(0 0 5px #3e497a);
+  overflow: visible;
+}
+.icon-line{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 1fr;
+  gap:10px;
+  width: 60%;
+  min-width: 350px;
+}
 @media only screen and (max-width: 600px) {
   
   .about h2 {
@@ -83,6 +99,6 @@
   }
 
   .skills h2 {
-    font-size: 30px;
+    font-size: 1.5rem;
   }
 }
