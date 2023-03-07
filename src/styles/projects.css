@@ -4,22 +4,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
-  color: #5E503F;
+  color: #3c6e71;
 }
 .projects .projectTitle {
   text-align: center;
-  color: #5E503F;
+  color: #3c6e71;
   font-size: 60px;
   font-weight: bolder;
 }
 
 .projectList {
-  width: 70vw;
+  width: 80%;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+  margin:auto;
+  box-sizing: border-box;
 }
 
 /* MENU ITEM STYLING */

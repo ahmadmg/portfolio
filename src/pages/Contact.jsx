@@ -28,10 +28,10 @@ function Contact() {
       <form> 
 
       
-       <input type="text" name="name"  placeholder="Name" required/>
-      <input type="email" name="email"  placeholder="Email" required/>
-      <input type="text" name="subject"  placeholder="Subject" required/>
-      <textarea placeholder="Message" name="message" required></textarea>
+       <input type="text" name="name"  placeholder="Name" className="in-item" required/>
+      <input type="email" name="email"  placeholder="Email" className="in-item" required/>
+      <input type="text" name="subject"  placeholder="Subject" className="in-item" required/>
+      <textarea placeholder="Message" name="message" className="in-item" required></textarea>
       <input type="submit" value="SEND" className="send-btn" />
  </form>
 
