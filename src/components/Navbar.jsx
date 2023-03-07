@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
-import ReorderIcon from "@mui/icons-material/Reorder";
+import { MdDensitySmall } from "react-icons/md";
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
   const location = useLocation();
@@ -16,7 +16,7 @@ function Navbar() {
             setExpandNavbar((prev) => !prev);
           }}
          name="Menu">
-          <ReorderIcon />
+          <MdDensitySmall title="menu" />
         </button>
       </div>
       <div className="links">

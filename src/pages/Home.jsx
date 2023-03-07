@@ -3,42 +3,17 @@ import "../styles/Home.css";
 import Typewriter from "typewriter-effect";
 import {SiHtml5,SiCss3,SiJavascript,SiReact,SiVisualstudiocode,SiGithub,SiNetlify 
            ,SiGit,SiPowershell,SiFigma,SiMiro} from "react-icons/si"
-import { Height } from "@mui/icons-material";
+
 
 function Home() {
   return (
     <div className="home">
-      <div className="about">
-      {/* Animation */}
-      <h2>  
-         <Typewriter
-  
-       onInit={(typewriter)=> {
-
-       typewriter
- 
-       .typeString("Welcome to my Portfolio")
-        
-       .pauseFor(1000)
-       .deleteAll()
-       .typeString("I'm Ahmad")
-       .start();
-       }}
-       />
-       </h2>
-        {/* <h2>Welcome to my Portfolio</h2> */}
-          <p className="prompt">
-            I'm passionate about <span className="color-me">coding</span> and a hard worker.  I used to work
-            within <span className="color-me">customer support</span> and looking forward to starting to make the
-            <span className="color-me"> product</span> meg selv.
-          </p>
-        
-      </div>
+      
       <div className="skills">
         <ol className="list">
-          <li className="item"> <h1>Skills : </h1></li>
+          {/* <li className="item"> <h1>Skills : </h1></li> */}
           <li className="item">
-            <h2>Languages I use to Write my Code:</h2>
+            <h2>I  Write my Code with:</h2>
             <span className="icon-line">
               <SiHtml5 className="icons" title="HTML" style={{color:"#e34c26"}}/>
              <SiCss3 className="icons" title="CSS" style={{color:"#2965f1"}}/> 
@@ -70,6 +45,34 @@ function Home() {
           </li>
         </ol>
       </div>
+
+      <div className="about">
+      {/* Animation */}
+      <h2>  
+         <Typewriter
+  
+       onInit={(typewriter)=> {
+
+       typewriter
+ 
+       .typeString("You are welcome")
+        
+       .pauseFor(1000)
+       .deleteAll()
+       .typeString("I'm Ahmad")
+       .start();
+       }}
+       />
+       </h2>
+        {/* <h2>Welcome to my Portfolio</h2> */}
+          <p className="prompt">
+            I'm passionate about <span className="color-me">coding</span> and a hard worker.  I used to work
+            within <span className="color-me">customer support</span> and looking forward to starting to make the
+            <span className="color-me"> product</span> meg selv.
+          </p>
+        
+      </div>
+
     </div>
   );
 }

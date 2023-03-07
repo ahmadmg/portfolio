@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import SocialMedia from "./components/social";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
+        <SocialMedia />
         <Routes>
           <Route path="/"           element={<Home />} />
           <Route path="*/"          element={<Home />} />
