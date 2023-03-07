@@ -1,7 +1,6 @@
 
 import React from "react";
 import { SiLinkedin,SiGithub } from "react-icons/si";
-
 import "../styles/Navbar.css";
 
 function SocialMedia() {
