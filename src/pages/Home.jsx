@@ -28,9 +28,9 @@ function Home() {
        </h2>
         {/* <h2>Welcome to my Portfolio</h2> */}
           <p className="prompt">
-            I'm passionate about coding and a hard worker.  I used to work
-            within customer support and looking forward to starting to make the
-            product selv.
+            I'm passionate about <span className="color-me">coding</span> and a hard worker.  I used to work
+            within <span className="color-me">customer support</span> and looking forward to starting to make the
+            <span className="color-me"> product</span> meg selv.
           </p>
         
       </div>

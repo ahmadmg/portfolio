@@ -9,33 +9,33 @@ export const ProjectList = [
   {
     name: "Stavanger",
     image: Proj1,
-    skills: "HTML,CSS",
+    skills: ["SiHtml5","SiCss3","SiJavascript","SiReact"],
     code:"https://",
     preview:"https://www.",
   },
   {
     name: "Solar System",
     image: Proj2,
-    skills: "JavaScript,HTML,CSS",
+    skills: ["SiHtml5","SiCss3","SiJavascript","SiReact"],
   },
   {
     name: "Project33333",
     image: Proj3,
-    skills: "React,css",
+    skills: ["SiHtml5","SiCss3","SiJavascript","SiReact"],
   },
   {
     name: "Project33",
     image: Proj4,
-    skills: "html,css",
+    skills: ["SiHtml5","SiCss3","SiJavascript","SiReact"],
   },
   {
     name: "Project6666",
     image: Proj5,
-    skills: "JavaScript,HTML,CSS",
+    skills: ["SiHtml5","SiCss3","SiJavascript","SiReact"],
   },
   {
     name: "24243",
     image: Proj6,
-    skills: "JavaScript,HTML,CSS",
+    skills: ["SiHtml5","SiCss3","SiJavascript","SiReact"],
   },
 ];

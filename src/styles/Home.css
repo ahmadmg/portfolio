@@ -55,7 +55,7 @@
 }
 .skills .list {
   list-style: none;
-  width: 60%;
+  width: 50%;
  
   border-radius: 8px;
   padding-bottom: 3px;
@@ -65,17 +65,18 @@
   align-items: center;
 }
 
+.color-me:hover{
+ color:#FFD700;
+ cursor: pointer;
+}
+
 .list span {
   font-size: 20px;
 }
 .icons{
   font-size: 4.5rem;
 }
-.icons:hover{
-  transform: scale(1.1);
-  filter: drop-shadow(0 0 8px #d3d3d38a) drop-shadow(0 0 5px #3e497a);
-  overflow: visible;
-}
+
 .icon-line{
   display: grid;
   grid-template-columns: repeat(4,1fr);

@@ -15,6 +15,24 @@
   font-weight: bolder;
 }
 
+.skill-icon{
+  font-size: 1.8rem;
+  margin: 0.2em;
+}
+.color-html5{
+  color:#e34c26;
+}
+
+.color-js{
+  color:#F0DB4F";
+}
+.color-css{
+  color:#2965f1;
+}
+.color-react{
+  color:#61dbfb;
+}
+
 .projectList {
   width: 80%;
   height: auto;
@@ -41,6 +59,7 @@
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in;
   cursor: pointer;
+  
 }
 
 .projectItem .bgImage {

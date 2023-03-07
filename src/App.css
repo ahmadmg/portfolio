@@ -13,3 +13,10 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+.icons:hover , .skill-icon:hover{
+  transform: scale(1.3);
+  filter: drop-shadow(0 0 8px #d3d3d38a) drop-shadow(0 0 5px #3e497a);
+  overflow: visible;
+  cursor: pointer;
+}

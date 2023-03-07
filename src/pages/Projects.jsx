@@ -1,14 +1,15 @@
 import React from "react";
+import {SiHtml5,SiCss3,SiJavascript,SiReact} from "react-icons/si"
 import ProjectItem from "../components/ProjectItem";
 import "../styles/projects.css"
 import {ProjectList} from "../data/projectList"
 function Projects() {
   return (
     <div className="projects">
-      <h1>My Projects</h1>
+      
       <div className="projectList">
         {ProjectList.map((project)=>{
-          return <ProjectItem name={project.name} image={project.image} skills={project.skills} code={project.code} preview={project.preview}/>
+          return <ProjectItem project={project} />
         })}
       </div>
     </div>
