@@ -3,7 +3,7 @@ import "../styles/Home.css";
 import Typewriter from "typewriter-effect";
 import {SiHtml5,SiCss3,SiJavascript,SiReact,SiVisualstudiocode,SiGithub,SiNetlify 
            ,SiGit,SiPowershell,SiFigma,SiMiro} from "react-icons/si"
-           import { SlArrowLeft } from "react-icons/sl";
+          
 
 
 function Home() {
