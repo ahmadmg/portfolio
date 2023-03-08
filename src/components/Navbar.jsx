@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
-import { MdDensitySmall } from "react-icons/md";
+import { SlMenu } from "react-icons/sl";
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
   const location = useLocation();
@@ -16,7 +16,7 @@ function Navbar() {
             setExpandNavbar((prev) => !prev);
           }}
          name="Menu">
-          <MdDensitySmall title="menu" />
+         <SlMenu title="Menu"/>
         </button>
       </div>
       <div className="links">
