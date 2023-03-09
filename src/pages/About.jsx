@@ -3,12 +3,13 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import Typewriter from "typewriter-effect";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@mui/icons-material/School";
-import WorkIcon from '@mui/icons-material/Work';
-import CastForEducationIcon from '@mui/icons-material/CastForEducation';
+import Typewriter from "typewriter-effect";
+import { MdWork,
+  MdOutlineCastForEducation
+ } from "react-icons/md";
 import {aboutData} from '../data/aboutData'
+
 function About() {
   return (
     <div style={{color:"#3c6e71" }}>
@@ -19,19 +20,29 @@ function About() {
 
   typewriter
 
-  .typeString("You are welcome to know more about me")
+  .typeString("Facts About Me")
    
   .pauseFor(1000)
   .deleteAll()
-  .typeString("Welcome! ")
+  .typeString("Welcome 🙂 ")
   .start();
   }}
   /></h1>
-      <VerticalTimeline lineColor="#3c6e71">
-      {aboutData.map((about) => {
-        return <VerticalTimelineElement  iconStyle={{ background: "#284B63", color: "#fff" }} date={about.date} icon={about.icon === "W" ? <WorkIcon/> : <CastForEducationIcon/> }> <h3>{about.title}</h3> <h4>{about.discrption}</h4></VerticalTimelineElement>
+      <VerticalTimeline lineColor="#284B6366">
 
-      })}
+      {aboutData.map((about) => {
+        return <VerticalTimelineElement 
+         contentStyle={{ background: "#ffffff66", color: '#284B63'  }}
+         contentArrowStyle={{ borderRight: '7px solid  #e1d89f' }}
+         iconStyle={{ background: "#284B63", color: "#F0DB4F48"  }} 
+         date={about.date} icon={about.icon === "W" ? <MdWork/> : <MdOutlineCastForEducation/> }> 
+         <h3 className="vertical-timeline-element-title">{about.title}</h3> 
+         <h4>{about.discrption}</h4>
+         </VerticalTimelineElement>
+
+      }
+      )
+      }
         
       </VerticalTimeline>
     </div>
