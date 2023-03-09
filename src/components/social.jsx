@@ -11,8 +11,8 @@ function SocialMedia() {
     <div className="social-container" onMouseLeave={()=>setExpandSocial(false)} >
       
     <div className="socialMedia" id={expandSocial? "expanded":"collapsed"}>
-    <a href="https://www.linkedin.com/in/ahmadmg/" aria-label="My LinkedIN"><SiLinkedin  title="LinkedIn" style={{color:"#0077b5"}} className="side-icon"/></a>
-    <a href="https://github.com/ahmadmg" aria-label="My GITHUB"><SiGithub title="GITHUB" style={{color:"#0077b5"}} className="side-icon"/> </a>
+    <a href="https://www.linkedin.com/in/ahmadmg/" aria-label="My LinkedIN"><SiLinkedin  title="LinkedIn" className="side-icon"/></a>
+    <a href="https://github.com/ahmadmg" aria-label="My GITHUB"><SiGithub title="GITHUB"  className="side-icon"/> </a>
     </div>
     <button
         onMouseOver={()=>setExpandSocial(true)}
@@ -21,7 +21,7 @@ function SocialMedia() {
           }}
          name="Menu"
          className="vertical">
-        <BsGripVertical />
+        <BsGripVertical title="Follow Me"/>
         </button>
     </div>
     

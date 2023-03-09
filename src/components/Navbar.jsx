@@ -1,15 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import "../styles/Navbar.css";
 import { SlMenu } from "react-icons/sl";
+import "../styles/Navbar.css";
+
+
 function Navbar() {
+
+  //  State for the Navbar
   const [expandNavbar, setExpandNavbar] = useState(false);
   const location = useLocation();
   useEffect(() => {
     setExpandNavbar(false);
   }, [location]);
+
   return (
     <header className="navbar" id={expandNavbar ? "open" : "close"}>
+     {/* Toggle Button div  */}
       <div className="toggleButton" >
         <button
           onClick={() => {
@@ -19,6 +25,7 @@ function Navbar() {
          <SlMenu title="Menu"/>
         </button>
       </div>
+
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/About">About</Link>

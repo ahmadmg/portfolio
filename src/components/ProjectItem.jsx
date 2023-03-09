@@ -1,7 +1,9 @@
 import React from "react";
-import "../styles/Projects.css";
 import {SiHtml5,SiCss3,SiJavascript,SiReact,SiGit} from "react-icons/si"
 import { TbWorld } from "react-icons/tb";
+import "../styles/Projects.css";
+
+// Render Skills Array to icon components
 function getIcon(icon) {
   switch (icon) {
     case "SiHtml5" : return <SiHtml5 className="skill-icon color-html5"/>
@@ -14,14 +16,15 @@ function getIcon(icon) {
 function ProjectItem({ project: {image,name,skills,code,preview} }) {
   
   return (
-    <div className="projectItem">
+    <div className="projectItem ">
       
-    <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
-      {/* <h1> {name} </h1> */}
-      <div skill-icons>{ skills.map( icon => getIcon(icon) ) }</div>
+    <div style={{ backgroundImage: `url(${image})` }} className="bgImage " />
+      <div skill-icons>{ skills.map( icon => getIcon(icon) ) }
+      <h1 className="text"> {name} </h1>
+      </div>
       <a href={code} ><SiGit className="skill-icon" title="CODE" /></a>&#160;&#160;
       <a href={preview}  ><TbWorld className="skill-icon"  title="Live Prview"/></a>
-      <h1> {name} </h1> 
+      
     </div>
   );
 }
