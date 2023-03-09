@@ -89,14 +89,14 @@
 
 @media only screen and (max-width: 1300px) {
   .projectList {
-    width: 90vw;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .projectList {
-    width:90vw;;
+    width:100%;
     grid-template-columns: 1fr;
   }
   .projectItem {
