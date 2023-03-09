@@ -8,6 +8,7 @@ import Typewriter from "typewriter-effect";
 import { MdWork,
   MdOutlineCastForEducation
  } from "react-icons/md";
+ import {FaGraduationCap} from "react-icons/fa"
 import {aboutData} from '../data/aboutData'
 
 function About() {
@@ -33,9 +34,9 @@ function About() {
       {aboutData.map((about) => {
         return <VerticalTimelineElement 
          contentStyle={{ background: "#ffffff66", color: '#284B63'  }}
-         contentArrowStyle={{ borderRight: '7px solid  #e1d89f' }}
+         contentArrowStyle={{ borderRight: '7px solid  #ffffff66' }}
          iconStyle={{ background: "#284B63", color: "#F0DB4F48"  }} 
-         date={about.date} icon={about.icon === "W" ? <MdWork/> : <MdOutlineCastForEducation/> }> 
+         date={about.date} icon={about.icon === "W" ? <MdWork/> : about.icon === "E" ? <FaGraduationCap /> : <MdOutlineCastForEducation />  }> 
          <h3 className="vertical-timeline-element-title">{about.title}</h3> 
          <h4>{about.discrption}</h4>
          </VerticalTimelineElement>
