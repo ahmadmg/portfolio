@@ -46,7 +46,7 @@ function About() {
       }
         
       </VerticalTimeline>
-      <h1 style={{color:"#3c6e71" ,textAlign:"center"}}>
+     <a href="https://www.linkedin.com/in/ahmadmg/" target="_blank" style={{color:"#3c6e71" ,textAlign:"center", textDecoration:"none"}}><h1 >
       <Typewriter 
   
   onInit={(typewriter)=> {
@@ -57,10 +57,10 @@ function About() {
    
   .pauseFor(1000)
   .deleteAll()
-  .typeString("<==")
+  .typeString("Linkedin")
   .start();
   }}
-  /></h1>
+  /></h1></a> 
     </div>
   );
 }
