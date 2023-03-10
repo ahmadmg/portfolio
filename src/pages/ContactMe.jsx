@@ -35,19 +35,16 @@ typewriter
 .start();
 }}
 /></h1>
-<p>I am interested in a work position or internship</p>
+
   </div>
 
    <form className='form' ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" className='in-item' />
-      <label>Email</label>
-      <input type="email" name="user_email" className='in-item' />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" className='send-btn'  />
-    </form>
-    </div>
+      <input type="text"   name="user_name"  className='in-item'  placeholder='Name'  required/>
+      <input type="email"  name="user_email" className='in-item'  placeholder='Email' required />
+      <textarea            name="message"  placeholder='Write your message here!' className='in-item' required/>
+      <input type="submit" value="Send"      className='send-btn'  />
+   </form>
+</div>
    
   );
 };
