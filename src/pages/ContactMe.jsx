@@ -7,7 +7,7 @@ export const ContactMe = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     emailjs.sendForm('service_ddhg98d', 'template_td2t9fl', form.current, "ehvHq2-YHopGWmPbQ")
       .then((result) => {
