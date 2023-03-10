@@ -46,6 +46,21 @@ function About() {
       }
         
       </VerticalTimeline>
+      <h1 style={{color:"#3c6e71" ,textAlign:"center"}}>
+      <Typewriter 
+  
+  onInit={(typewriter)=> {
+
+  typewriter
+
+  .typeString("Check my Linkedin for my CV")
+   
+  .pauseFor(1000)
+  .deleteAll()
+  .typeString("<==")
+  .start();
+  }}
+  /></h1>
     </div>
   );
 }

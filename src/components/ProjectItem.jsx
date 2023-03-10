@@ -18,13 +18,13 @@ function ProjectItem({ project: {image,name,skills,code,preview} }) {
   return (
     <div className="projectItem ">
       
-    <div style={{ backgroundImage: `url(${image})` }} className="bgImage " />
-      <div skill-icons>{ skills.map( icon => getIcon(icon) ) }
-      <h1 className="text"> {name} </h1>
+    <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
+      <div skill-icons>  
+       { skills.map( icon => getIcon(icon) ) }
       </div>
-      <a href={code} ><SiGit className="skill-icon" title="CODE" /></a>&#160;&#160;
-      <a href={preview}  ><TbWorld className="skill-icon"  title="Live Prview"/></a>
-      
+      <a href={code} target="_blank"><SiGit className="skill-icon" title="CODE" /></a>&#160;&#160;
+      <a href={preview} target="_blank"   ><TbWorld className="skill-icon"  title="Live Prview"/></a>
+      <h1 className="projectTitle"> {name} </h1>
     </div>
   );
 }

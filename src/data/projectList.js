@@ -9,14 +9,16 @@ export const ProjectList = [
   {
     name: "Stavanger",
     image: Proj1,
-    skills: ["SiHtml5","SiCss3","SiJavascript","SiReact"],
-    code:"https://",
-    preview:"https://www.",
+    skills: ["SiHtml5","SiCss3"],
+    code:"https://github.com/ahmadmg/Parallax-Website-Stavanger",
+    preview:"https://ahmadmg.github.io/Parallax-Website-Stavanger/",
   },
   {
     name: "Solar System",
     image: Proj2,
-    skills: ["SiHtml5","SiCss3","SiJavascript","SiReact"],
+    skills: ["SiHtml5","SiCss3","SiJavascript"], 
+    code:"https://github.com/ahmadmg/GrupperA3SolSystem",
+    preview:"https://ahmadmg.github.io/GrupperA3SolSystem/",
   },
   {
     name: "Project33333",
