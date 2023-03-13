@@ -10,7 +10,7 @@ import { MdWork,
  } from "react-icons/md";
  import {FaGraduationCap} from "react-icons/fa"
 import {aboutData} from '../data/aboutData'
-
+// Hello
 function About() {
   return (
     <div style={{color:"#3c6e71" }}>
