@@ -1,7 +1,7 @@
 import Proj1 from "../assets/Stavanger.png";
-import Proj2 from "../assets/SolarSystem.jpeg";
-import Drumkit from "../assets/DrumKit.jpg";
-import Portfolio from "../assets/Portfolio.jpeg";
+import Proj2 from "../assets/SolarSystem.png";
+import Drumkit from "../assets/DrumKit.png";
+import Portfolio from "../assets/Portfolio.png";
 
 
 export const ProjectList = [
