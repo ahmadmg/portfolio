@@ -1,8 +1,0 @@
-npm run build
-
-git add dist -f
-
-git commit -m "Adding dist"
-
-# push til build branchen med dist som root
-git subtree push --prefix dist origin build
