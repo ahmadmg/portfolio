@@ -5,6 +5,8 @@
   font-family: 'Saira', sans-serif;
   color: #3e497a;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about {

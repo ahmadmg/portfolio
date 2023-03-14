@@ -1,5 +1,6 @@
 import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+
+ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Projects from "./pages/Projects";
 import Home from "./pages/Home";
 import ContactMe from "./pages/ContactMe";
@@ -17,7 +18,7 @@ function App() {
         <SocialMedia />
         <Routes>
           <Route path="/"           element={<Home />} />
-          <Route path="*/"          element={<Home />} />
+         
           <Route path="/portfolio/" element={<Home />} />
           <Route path="/projects"   element={<Projects />} />
           <Route path="/about"      element={<About />} />
@@ -25,8 +26,9 @@ function App() {
         </Routes>
         <Footer />
       </Router>
+      
     </div>
   );
-}
+};
 
 export default App;
