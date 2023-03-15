@@ -12,7 +12,6 @@ function Navbar() {
   useEffect(() => {
     setExpandNavbar(false);
   }, [location]);
-
   return (
     <header className="navbar" id={expandNavbar ? "open" : "close"}>
      {/* Toggle Button div  */}

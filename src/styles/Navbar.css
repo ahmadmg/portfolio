@@ -15,7 +15,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   color: white;
 }
 
@@ -40,6 +40,7 @@
 }
 .toggleButton button {
   margin-right: 20px;
+  margin-bottom: 15px;
   background-color: transparent;
   border: none;
   color: white;
@@ -48,13 +49,14 @@
 
 #open {
   height: 100vh;
-  transition: .11s ease;
+  transition: .20s ease;
 }
+
 
 #open .links {
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 100px;
+  margin-top: 5%;
 }
 
 #open a {
@@ -89,5 +91,6 @@
 
   #open .links {
     flex-direction: row;
+    margin-top: 5px;
   }
 }
