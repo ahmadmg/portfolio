@@ -98,13 +98,17 @@
   }
   .about{
     order: 1;
+    
+  }
+  .about h2{
+   font-size: 3rem;
   }
   .skills{
     order: 2;
   }
   .about, .skills{
     width: 100%;
-    height: 80%;
+    height: 75%;
     margin: 1em;
     padding-top: 1em;
   }

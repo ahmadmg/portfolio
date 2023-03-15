@@ -18,7 +18,7 @@ function Home() {
             <span className="icon-line">
               <SiHtml5 className="icons" title="HTML" style={{color:"#e34c26"}}/>
              <SiCss3 className="icons" title="CSS" style={{color:"#2965f1"}}/> 
-             <SiJavascript className="icons" title="JAVASCRIPT" style={{color:"#F0DB4F"}}/>  
+             <SiJavascript className="icons" title="JAVASCRIPT" style={{  color:"#F0DB4F", backgroundColor:"#2965f1"}}/>  
              <SiReact className="icons" title="REACT" style={{color:"#61dbfb"}}/></span>
           </li>
           <li className="item">
@@ -58,7 +58,7 @@ function Home() {
 
        typewriter
  
-       .typeString("You are welcome")
+       .typeString("Hello")
         
        .pauseFor(1000)
        .deleteAll()
