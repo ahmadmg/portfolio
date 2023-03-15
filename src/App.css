@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
 
 html, body, #root , .App {
-  height: 100%;
+  height: 100vh;
   padding: 0;
   margin: 0;
 }
@@ -16,6 +16,7 @@ body > #root > .App {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   font-family:'Saira', 'Roboto', sans-serif;
   background-color: #D9D9D9;
   color: #284B63;
@@ -45,7 +46,6 @@ body > #root > .App {
   display: flex;
   justify-content: center;
   align-items: center;
- 
   box-shadow: 10px 10px 10px -2px rgba(0, 0, 0, 0.2);
   border-radius: 0 8px 8px 0;
 }
@@ -70,10 +70,7 @@ body > #root > .App {
   flex-direction: column;
   gap: 10px;
   margin: auto;
-  padding: 10px;
-   
- 
-  
+  padding: 10px; 
 }
 .side-icon {
   color: #F0DB4F;
@@ -84,18 +81,11 @@ body > #root > .App {
 /* Footer Styling */
 .footer {
   width: 100%;
+ position: relative;
+  bottom: 0;
   text-align: center;
-  padding-bottom: 0 auto;
-  margin-bottom: 0 auto;
-  position: absolute; 
-  left: 0 ; right: 0; bottom: 0; 
-  height:[footer-height] ;
-  bottom: 0px;
-  margin-right: auto;
-  margin-left: auto;
- 
-
 }
+
 .footer p{
   margin-bottom:0;
   padding-bottom: 0;
