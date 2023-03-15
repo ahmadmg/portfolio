@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://ahmadam.me/",
+  "homepage": ".",
   "private": false,
   "version": "0.0.0",
   "type": "module",
