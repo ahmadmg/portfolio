@@ -49,8 +49,10 @@
 
 #open {
   height: 100vh;
-  transition: .20s ease;
+  
+  transition: 0.5s;
 }
+
 
 
 #open .links {
@@ -62,9 +64,18 @@
 #open a {
   width: 100%;
   text-align: center;
+  animation: appear 0.3s both;
 }
 
-
+@keyframes appear {
+  0% {
+    opacity: 0;
+    translate: 0 50px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .toggleButton {

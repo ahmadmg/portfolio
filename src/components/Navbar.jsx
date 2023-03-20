@@ -12,6 +12,7 @@ function Navbar() {
   useEffect(() => {
     setExpandNavbar(false);
   }, [location]);
+  
   return (
     <header className="navbar" id={expandNavbar ? "open" : "close"}>
      {/* Toggle Button div  */}
@@ -26,10 +27,10 @@ function Navbar() {
       </div>
 
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Projects">My Works</Link>
-        <Link to="/ContactMe">Contact me</Link>
+        <Link to="/" style={{animationDelay:"0.1s"}} >Home</Link>
+        <Link to="/About" style={{animationDelay:"0.2s"}} >About</Link>
+        <Link to="/Projects" style={{animationDelay:"0.3s"}}>My Works</Link>
+        <Link to="/ContactMe" style={{animationDelay:"0.4s"}}>Contact me</Link>
       </div>
     </header>
   );
