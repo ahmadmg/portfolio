@@ -1,5 +1,6 @@
 import React from "react";
 import {SiHtml5,SiCss3,SiJavascript,SiReact} from "react-icons/si"
+import {TbApi} from "react-icons/tb"
 import ProjectItem from "../components/ProjectItem";
 import "../styles/projects.css"
 import {ProjectList} from "../data/projectList"

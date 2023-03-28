@@ -2,6 +2,7 @@ import Proj1 from "../assets/Stavanger.jpg";
 import Proj2 from "../assets/SolarSystem.jpg";
 import Drumkit from "../assets/DrumKit.jpg";
 import Portfolio from "../assets/Portfolio.jpg";
+import dog from "../assets/dog.jpg"
 
 
 export const ProjectList = [
@@ -14,9 +15,15 @@ export const ProjectList = [
   },{
     name:"Portfolio",
     image:Portfolio,
-    skills:["SiHtml5","SiCss3","SiJavascript","SiReact"], 
+    skills:["SiHtml5","SiCss3","SiReact"], 
     code:"https://github.com/ahmadmg/portfolio",
     preview:"https://ahmadmg.github.io/portfolio/"
+  },{
+    name:"Random Dog Img API",
+    image:dog,
+    skills:["SiHtml5","SiCss3","SiReact","TbApi"], 
+    code:"https://github.com/ahmadmg/randomdogimgapi",
+    preview:"https://ahmadmg.github.io/randomdogimgapi/"
   },{
     name:"Drumkit",
     image: Drumkit,

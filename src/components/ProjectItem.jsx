@@ -1,6 +1,7 @@
 import React from "react";
 import {SiHtml5,SiCss3,SiJavascript,SiReact,SiGit} from "react-icons/si"
-import { TbWorld } from "react-icons/tb";
+import { TbWorld,TbApi } from "react-icons/tb";
+
 import "../styles/Projects.css";
 
 // Render Skills Array to icon components
@@ -10,6 +11,7 @@ function getIcon(icon) {
     case "SiCss3" : return <SiCss3 className="skill-icon color-css"/>
     case "SiJavascript" : return <SiJavascript className="skill-icon color-js"/>
     case "SiReact" : return <SiReact className="skill-icon color-react"/>
+    case "TbApi" : return <TbApi className="skill-icon "/>
   }
 }
 
