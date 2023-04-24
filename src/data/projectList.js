@@ -3,9 +3,16 @@ import Proj2 from "../assets/SolarSystem.jpg";
 import Drumkit from "../assets/DrumKit.jpg";
 import Portfolio from "../assets/Portfolio.jpg";
 import dog from "../assets/dog.jpg"
+import newtab from "../assets/newtab.jpg"
 
 
-export const ProjectList = [
+export const ProjectList = [{
+    name:"NewTab xtension",
+    image:newtab,
+    skills:["SiHtml5","SiCss3","SiJavascript","TbApi"],
+    code:"https://github.com/ahmadmg/chrome-extension",
+    preview:"https://chrome.google.com/webstore/detail/new-tab/gbogghhnfnkdaepieedpdllamamlcpkd"
+  },
   {
     name:"Stavanger",
     image:Proj1,
