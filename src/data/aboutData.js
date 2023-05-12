@@ -9,7 +9,7 @@ export const aboutData = [
     discrption:"KodeHode is a six-month bootcamp course with accompanying six-month internship at a company"
   }, 
   {
-    date: "05/2019-Today",
+    date: "05/2019-04/2023",
     icon: "W",
     title:"Støttekontakt ",
     place:"Klepp Kommune, Kleppe ",
@@ -21,13 +21,6 @@ export const aboutData = [
     title:"Security Guard",
     place:"Securitas- Stavanger",
     discrption:"Various tasks in the evening and night"
-  },
-  {
-    date: "05/2019-Today",
-    icon: "W",
-    title:"Støttekontakt ",
-    place:"Klepp Kommune, Kleppe ",
-    discrption:"Work in the evenings. Have several activities with the client."
   },
   {
       date: "03/2019-08/2020",
