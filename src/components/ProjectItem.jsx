@@ -2,7 +2,7 @@ import React from "react";
 import {SiHtml5,SiCss3,SiJavascript,SiReact,SiGit} from "react-icons/si"
 import { TbWorld,TbApi } from "react-icons/tb";
 
-import "../styles/Projects.css";
+import "../styles/projects.css";
 
 // Render Skills Array to icon components
 function getIcon(icon) {
