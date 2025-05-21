@@ -69,7 +69,7 @@ function Home() {
        </h2>
         {/* <h2>Welcome to my Portfolio</h2> */}
           <p className="prompt">
-            I'm passionate about <span className="color-me">coding</span> and a hard worker. I’ve previously worked in tech support and I’m really excited by the idea of switching roles from support to <span className="color-me">QA</span>.
+            I'm passionate about <span className="color-me">coding</span> and a hard worker. I’ve previously worked in tech and I’m really excited by the idea of switching roles from support to <span className="color-me">QA</span>.
           </p>
         
       </div>
